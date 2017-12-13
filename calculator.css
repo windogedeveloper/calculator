@@ -50,31 +50,31 @@
 		color: white;
 		background-color: #c64f81;
 		border-bottom: black 2px solid;
-		border-top: 2px #6f6f6f solid;
+		border-top: 2px #c64f81 solid;
 }
 .button.operator {
 		color: white;
 		background-color: #4D5966;
 		border-bottom: black 2px solid;
-		border-top: 2px #6f6f6f solid;
+		border-top: 2px #4d5966 solid;
 }
 .button.number {
 		color: white;
 		background-color: #7091ab;
 		border-bottom: black 2px solid;
-		border-top: 2px #6f6f6f solid;
+		border-top: 2px #7091ab solid;
 }
 
 /* Simulate Button Press */
-.function: active {
+.function:active {
 		border-top: black 2px solid;
-		border-bottom: 2px #6f6f6f solid;	
+		border-bottom: 2px #c64f81 solid;	
 }
-.operator: active {
+.operator:active {
 		border-top: black 2px solid;
-		border-bottom: 2px #303030 solid;	
+		border-bottom: 2px #4d5966 solid;	
 }
-.number: active {
+.number:active {
 		border-top: black 2px solid;
-		border-bottom: 2px #6f6f6f solid;	
+		border-bottom: 2px #7091ab solid;	
 }
