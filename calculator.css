@@ -74,7 +74,7 @@
 		border-top: black 2px solid;
 		border-bottom: 2px #4d5966 solid;	
 }
-.number:active {
+.number: active {
 		border-top: black 2px solid;
 		border-bottom: 2px #7091ab solid;	
 }
