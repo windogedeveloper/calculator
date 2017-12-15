@@ -1,9 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background-image: url("images/nature2.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
 /*Calculator Box*/
 .box {
-	background-image: url("images/nature.jpg");
+	background-color: #e6f3ff;
 	height: 300px;
 	width: 325px;
 	border-radius: 10px;
