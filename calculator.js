@@ -19,3 +19,6 @@ function e() {
 				d("Error");
 		}
 }
+function negative(val) {
+		
+}
