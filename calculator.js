@@ -24,9 +24,7 @@ function negative() {
 	e();
 	// get teh value on the display and multiply it by -1
 	var x = Number(document.getElementById("d").value);
-	alert(x);
 	var y = x*(-1);
-	alert(y);
 	// display the result
 	d(y);
 }
