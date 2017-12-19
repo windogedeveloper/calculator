@@ -42,11 +42,12 @@ function absolute() {
 	// display the result
 	d(y);
 }
-function exponent() {
+function square() {
 	// evaluate the current equation
+	e();
 	// get teh value on the display and multiply it by -1
-	var x = Number(e());
-	var y = x*(-1);
+	var x = Number(document.getElementById("d").value);
+	var y = Math.pow(x, 2);
 	// display the result
 	d(y);
 }
