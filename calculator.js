@@ -30,9 +30,15 @@ function negative() {
 }
 function absolute() {
 	// evaluate the current equation
+	e();
 	// get teh value on the display and multiply it by -1
-	var x = Number(e());
-	var y = x*(-1);
+	var x = Number(document.getElementById("d").value);
+	if (x>=0) {
+		var y = x;
+	}
+	else {
+		var y = x*(-1);
+	}
 	// display the result
 	d(y);
 }
