@@ -45,16 +45,30 @@ function absolute() {
 function square() {
 	// evaluate the current equation
 	e();
-	// get teh value on the display and multiply it by -1
+	// get teh value on the display and square it
 	var x = Number(document.getElementById("d").value);
 	var y = Math.pow(x, 2);
+	// display the result
+	d(y);
+}
+function exponent() {
+	// evaluate the current equation
+	e();
+	// get teh value on the display and reset display
+	var x = Number(document.getElementById("d").value);
+	d(' ');
+	// evaluate new exponent
+	e();
+	// get teh value on the display and multiply x z number of times
+	var z = Number(document.getElementById("d").value);
+	var y = Math.pow(x, z);
 	// display the result
 	d(y);
 }
 function squareroot() {
 	// evaluate the current equation
 	e();
-	// get teh value on the display and multiply it by -1
+	// get teh value on the display take  a square root of it
 	var x = Number(document.getElementById("d").value);
 	var y = Math.sqrt(x);
 	// display the result
