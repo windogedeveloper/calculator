@@ -54,7 +54,7 @@ function square() {
 function exponent() {
 	// evaluate the current equation
 	e();
-	// get teh value on the display and reset display
+	// get the value on the display and reset display
 	var x = Number(document.getElementById("d").value);
 	d(' ');
 	// evaluate new exponent
