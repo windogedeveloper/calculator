@@ -14,8 +14,22 @@
 										<p>
 										<input type="button" class="button operator" value="(" onClick="v('(')">
 										<input type="button" class="button operator" value=")" onClick="v(')')">
-										<input type="button" class="button operator" value="^2" onClick="square()">
-										<input type="button" class="button operator" value="√" onClick="squareroot()">
+										<div class="dropdown">
+										  <button onclick="myFunction()" class="dropbtn">^</button>
+										  <div id="myDropdown" class="dropdown-content">
+											<input type="button" class="button operator" value="^2" onClick="square()">
+											<input type="button" class="button operator" value="^3" onClick="cubic()">
+											<input type="button" class="button operator" value="^4" onClick="fourthpow()">
+										  </div>
+										</div>
+										<div class="dropdown">
+										  <button onclick="myFunction()" class="dropbtn">√</button>
+										  <div id="myDropdown" class="dropdown-content">
+											<input type="button" class="button operator" value="√" onClick="squareroot()">
+											<input type="button" class="button operator" value="3√" onClick="cuberoot()">
+											<input type="button" class="button operator" value="4√" onClick="fourthroot()">
+										  </div>
+										</div>
 										<input type="button" class="button operator" value="*" onClick="v('*')">
 										</p>
 										<p>

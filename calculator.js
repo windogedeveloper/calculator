@@ -51,17 +51,21 @@ function square() {
 	// display the result
 	d(y);
 }
-function exponent() {
+function cubic() {
 	// evaluate the current equation
 	e();
-	// get the value on the display and reset display
+	// get teh value on the display and square it
 	var x = Number(document.getElementById("d").value);
-	d(' ');
-	// evaluate new exponent
+	var y = Math.pow(x, 3);
+	// display the result
+	d(y);
+}
+function fourthpow() {
+	// evaluate the current equation
 	e();
-	// get teh value on the display and multiply x z number of times
-	var z = Number(document.getElementById("d").value);
-	var y = Math.pow(x, z);
+	// get teh value on the display and square it
+	var x = Number(document.getElementById("d").value);
+	var y = Math.pow(x, 4);
 	// display the result
 	d(y);
 }
@@ -70,7 +74,43 @@ function squareroot() {
 	e();
 	// get teh value on the display take  a square root of it
 	var x = Number(document.getElementById("d").value);
-	var y = Math.sqrt(x);
+	var y = Math.pow(x, 1/2);
 	// display the result
 	d(y);
+}
+function cuberoot() {
+	// evaluate the current equation
+	e();
+	// get teh value on the display take  a square root of it
+	var x = Number(document.getElementById("d").value);
+	var y = Math.pow(x, 1/3);
+	// display the result
+	d(y);
+}
+function fourthroot() {
+	// evaluate the current equation
+	e();
+	// get teh value on the display take  a square root of it
+	var x = Number(document.getElementById("d").value);
+	var y = Math.pow(x, 1/4);
+	// display the result
+	d(y);
+}
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
 }
